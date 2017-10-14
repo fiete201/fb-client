@@ -1,5 +1,3 @@
 #!/usr/bin/make -f
-export PYBUILD_NAME=qutebrowser
-export PYBUILD_DISABLE_python3=test
 %:
 	dh $@ --with python3
