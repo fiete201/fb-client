@@ -11,5 +11,8 @@ Files: debian/*
 Copyright: 2017 Fritz Reichwald
 License: GPL-3+
 
+License: GPL-3
+ It can be found in /usr/share/common-licenses/GPL-3
+
 License: GPL-3+
  It can be found in /usr/share/common-licenses/GPL-3
