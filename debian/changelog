@@ -1,0 +1,5 @@
+PACKAGE (2.0.3-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- Fritz Reichwald <reichwald@b1-systems.de>  Sat, 14 Oct 2017 13:40:35 +0200
