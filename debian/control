@@ -18,5 +18,6 @@ Depends: python3,
 Suggests: xclip
 Description: Client for filebin at paste.xinu.at
  .
- The client for filebin for simple sharing of files especially source code snippets.
+ The client for filebin for simple sharing of files especially
+ source code snippets.
  This service can also be hosted on private infrastructure.
