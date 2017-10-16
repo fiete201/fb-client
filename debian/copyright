@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: fb
 Upstream-Contact: Florian "Bluewind" Pritz <flo@xssn.at>
-Source: https://paste.xinu.at
+Source: https://git.server-speed.net/users/flo/fb/
 
 Files: *
 Copyright: 2015-2017 Florian "Bluewind" Pritz <flo@xssn.at>

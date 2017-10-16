@@ -16,6 +16,7 @@ Depends: python3,
          ${misc:Depends},
          ${python3:Depends}
 Suggests: xclip
-Description: Client for paste.xinu.at
+Description: Client for filebin at paste.xinu.at
  .
- A website for simple sharing of files especially source code snippets.
+ The client for filebin for simple sharing of files especially source code snippets.
+ This service can also be hosted on private infrastructure.
