@@ -1,7 +1,7 @@
 Description: Change shebang to python3
  This script works with python2 and python3 but would need an additional
  dependency since lzma is included in python3 so I decide to change the
- shebang to start it with python3 everytime.
+ shebang to start it with python3 every time.
  Last-Update: 2017-10-14
 
 --- fb-client-2.0.3.orig/fb.py
