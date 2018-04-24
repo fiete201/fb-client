@@ -1,0 +1,71 @@
+From: Fritz Reichwald <mail@fritzreichwald.de>
+Date: Tue, 24 Apr 2018 23:02:00 +0200
+Subject: Fix some minor formatting/spelling mistakes mentioned by lintian
+
+---
+ fb.1 | 9 +--------
+ 1 file changed, 1 insertion(+), 8 deletions(-)
+
+diff --git a/fb.1 b/fb.1
+index 15f7775..15789f8 100644
+--- a/fb.1
++++ b/fb.1
+@@ -7,11 +7,9 @@
+ .Dd April 11, 2016
+ .Dt FB 1
+ .Os
+-
+ .Sh NAME
+ .Nm fb
+ .Nd a client for https://paste.xinu.at
+-
+ .Sh SYNOPSIS
+ .Nm
+ .Op options
+@@ -22,7 +20,6 @@
+ .Ar ID|URL ...
+ .Nm
+ .Op Fl hv
+-
+ .Sh DESCRIPTION
+ .Nm
+ is a client to https://paste.xinu.at which allows the user to easily upload,
+@@ -106,13 +103,12 @@ Display the client version.
+ .It Fl D, -debug
+ Display debugging information.
+ .El
+-
+ .Sh CONFIGURATION FILES
+ .Bl -tag
+ .It $XDG_CONFIG_HOME/fb-client/apikey
+ This file contains the API key to use for authentication.
+ .It $XDG_CONFIG_HOME/fb-client/config
+-This file allows to override certain variables by using the format 'option_name="value"'.
++This file allows one to override certain variables by using the format 'option_name="value"'.
+ Both, the option value and name, are case-sensitive string literals.
+ Environment variables can be used in the value by using the $VARIABLE_NAME syntax.
+ .Pp
+@@ -126,7 +122,6 @@ The command used to copy URLs of uploaded files to the clipboard. This defaults
+ The file that contains the API key. This defaults to "$XDG_CONFIG_HOME/fb-client/apikey"
+ .El
+ .El
+-
+ .Sh ENVIRONMENT
+ Some options can be changed by modifying environment variables:
+ .Bl -tag -width XZ_OPTS
+@@ -141,7 +136,6 @@ Setting TMPDIR to some directory where
+ .Nm
+ creates temporary files inside this directory rather than the system default.
+ .El
+-
+ .Sh EXAMPLES
+ .Bl -tag
+ .It Nm Fl tc Ar directory file
+@@ -160,7 +154,6 @@ server.
+ .It Ic make \&|\&& Nm
+ This will upload the output of make (stdout and stderr) in csh and similar shells.
+ .El
+-
+ .Sh SEE ALSO
+ .Xr curl 1 ,
+ .Xr gzip 1 ,
